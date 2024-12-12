@@ -22,10 +22,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                'primary-bg': '#1E1E1E',
                 'real-estate': '#ABEF5F',
-                'main-bg': '#F4F4F4',
-                'footer-bg-clr': '#1C1C1C',
                 backgroundImage: {
                   'bg-img': "url('assets/bg.jpg')",
                 }
@@ -36,7 +33,7 @@
     </script>
 </head>
 <body class="manrope-font">
-    <header class="container mx-auto">
+    <header class="container mx-auto mb-24">
       <nav class="mb-14">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -124,5 +121,51 @@
         </div>
       </div>
     </header>
+    <main class="container mx-auto">
+      <section class="mb-24 relative">
+        <div class="hero min-h-screen">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="images/Rectangle.png"
+              class="rounded-lg shadow-2xl" />
+            <div class="space-y-8">
+              <a class="btn bg-[#E9E9E9] px-2 py-1 rounded-xl text-slate-700 flex items-center w-5/12 md:w-3/12">
+                <div class="bg-real-state p-2 rounded-full flex items-center justify-center mr-2">
+                  <svg class="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--! Font Awesome Free 6.7.1 -->
+                    <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                  </svg>
+                </div>
+                About Us
+              </a>              
+              <h1 class="text-6xl font-bold">We design thoughtful, <br> liveable spaces</h1>
+              <p class="text-slate-400">
+                The barn house captivates with its blend of rustic charm and <br> modern sophistication, featuring weathered wood, sleek metal accents.
+              </p>
+              <div class="flex gap-4 shadow-xl p-5 ">
+                <img src="images/commercial.png" alt="">
+                <div>
+                  <h4 class="text-2xl font-bold">Commercial</h4>
+                  <p class="text-slate-400">The barn house captivates with its blend of <br> rustic charm and modern.</p>
+                </div>
+              </div>
+              <div class="flex gap-4 shadow-xl p-5">
+                <img src="images/residential.png" alt="">
+                <div>
+                  <h4 class="text-2xl font-bold">Residential</h4>
+                  <p class="text-slate-400">The barn house captivates with its blend of <br> rustic charm and modern.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="absolute lg:top-32 lg:left-20" src="images/vector.png" alt="">
+      </section>
+      <section class="mb-24"></section>
+      <section class="mb-24"></section>
+      <section class="mb-24"></section>
+      <section class="mb-24"></section>
+      <section class="mb-24"></section>
+    </main>
 </body>
 </html>
